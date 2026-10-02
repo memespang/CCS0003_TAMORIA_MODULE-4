@@ -32,3 +32,4 @@ int main() {
     std::cout << "Share/student = " << sharePerStudent << std::endl;
     return 0;
 }
+
