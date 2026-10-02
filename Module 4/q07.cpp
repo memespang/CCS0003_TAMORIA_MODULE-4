@@ -18,6 +18,7 @@ int main() {
     std::cout << std::fixed << std::setprecision(3);
     std::cout << "\ndx: " << x2 - x1 << std::endl;
     std::cout << "dy: " << y2 - y1 << std::endl;
+    std::cout << "Distance: " << distance << std::endl;
     std::cout << "Rounded distance: " << std::fixed << std::setprecision(0) << round(distance) << std::endl;
 
     return 0;
