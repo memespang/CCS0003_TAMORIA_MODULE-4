@@ -14,7 +14,7 @@ int main() {
 
     std::cout << "Enter service charge(%): ";
     std::cin >> serviceCharge;
-    serviceCharge = serviceCharge / 100;
+    serviceCharge /= 100;
 
     std::cout << "Enter number of students: ";
     std::cin >> numStudents;
