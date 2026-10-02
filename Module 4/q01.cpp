@@ -4,7 +4,8 @@
 int main() {
 
     //input
-    double price, quantity, serviceCharge, numStudents;
+    double price, quantity, serviceCharge;
+    int numStudents;
 
     std::cout << "Enter meal price: ";
     std::cin >> price;
