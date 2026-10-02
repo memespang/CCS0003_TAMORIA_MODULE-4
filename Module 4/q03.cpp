@@ -4,7 +4,8 @@
 int main() {
 
     //input
-    double base, distance, kmRate, toll, bookingPercentage, passengers;
+    double base, distance, kmRate, toll, bookingPercentage;
+    int passengers;
 
     std::cout << "Enter base fare: ";
     std::cin >> base;
