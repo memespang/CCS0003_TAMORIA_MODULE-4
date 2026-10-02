@@ -5,7 +5,8 @@
 int main() {
 
     //input
-    double wall_width, wall_height, coats, coverage;
+    double wall_width, wall_height, coverage;
+    int coats;
 
     std::cout << "Enter wall width (m): ";
     std::cin >> wall_width;
